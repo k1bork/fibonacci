@@ -14,12 +14,12 @@ function enterNumber() {
 function fibonacci(n) {
     let previous = 0;
     let next = 1;
-    let mem;
+    let memory;
 
     for (let i = 2; i <= n; i++) {
-        mem = previous + next;
+        memory = previous + next;
         previous = next;
-        next = mem;
+        next = memory;
 
     }
     return next;
