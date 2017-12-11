@@ -27,9 +27,9 @@ function fibonacci(n) {
 
 function fibonacciArr(n) {
 
-    var fibonaArr = [1, 1];
+    let fibonaArr = [1, 1];
 
-    for (var i = 2; i < n; i++) {
+    for (let i = 2; i < n; i++) {
         fibonaArr[i] = fibonaArr[i - 1] + fibonaArr[i - 2];
     }
 
